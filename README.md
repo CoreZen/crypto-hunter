@@ -15,7 +15,7 @@ A high-performance Ethereum wallet hunter that generates and checks random priva
 ## Requirements
 
 - Python 3.8+
-- An Ethereum node URL ([Infura](www.infura.io), [Alchemy](www.alchemy.com), or your own node)
+- An Ethereum node URL ([Infura](https://www.infura.io), [Alchemy](https://www.alchemy.com), or your own node)
 
 ## Installation
 
