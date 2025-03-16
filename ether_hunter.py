@@ -124,7 +124,7 @@ def setup_display():
     """Initialize the static parts of the display"""
     sys.stdout.write(CLEAR)
     
-    title = f"{BOLD}{CYAN}CRYPTO HUNTER{RESET}"
+    title = f"{BOLD}{CYAN}ETHER HUNTER{RESET}"
     lines = [
         f"  {title} {ANIMATION_STATES[0]}",
         f"{YELLOW}═{RESET}" * 80,
@@ -153,7 +153,7 @@ def update_display(stats, start_time):
     animation_idx = (animation_idx + 1) % len(ANIMATION_STATES)
     sys.stdout.write('\033[H')
     
-    title = f"{BOLD}{CYAN}CRYPTO HUNTER{RESET}"
+    title = f"{BOLD}{CYAN}ETHER HUNTER{RESET}"
     lines = [
         f"  {title} {YELLOW}{ANIMATION_STATES[animation_idx]}{RESET}",
         f"{YELLOW}═{RESET}" * 80,
@@ -247,7 +247,7 @@ def main():
         
         # Print final stats with minimal formatting
         elapsed_time = time.time() - start_time
-        print(f"{BOLD}{CYAN}CRYPTO HUNTER - FINAL STATS{RESET}")
+        print(f"{BOLD}{CYAN}ETHER HUNTER - FINAL STATS{RESET}")
         print("-" * 80)
         print(f"Total Runtime:      {format_duration(elapsed_time)}")
         print(f"Total Attempts:     {stats.attempts:,}")
