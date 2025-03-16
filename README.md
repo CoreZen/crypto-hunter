@@ -82,7 +82,7 @@ Found wallets are logged to `found_accounts.txt` with the following details:
 The probability of randomly finding an Ethereum wallet with a balance is **astronomically low**. Consider the following:
 
 - The total number of possible private keys is **2^256** (~1.15 x 10^77).
-- This is **more than the number of atoms in the observable universe** (~10^80).
+- This is **almost the same as the estimated number of atoms in the observable universe** (~10^80).
 - Statistically, you are:
   - **42 billion times** more likely to win the Powerball lottery (1 in 292 million).
   - **250 million times** more likely to be struck by lightning in your lifetime (1 in 15,300).
